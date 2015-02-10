@@ -1,0 +1,29 @@
+{
+  "name": "OrgUser",
+  "base": "User",
+  "idInjection": true,
+  "properties": {
+    "fname": {
+      "type": "string",
+      "required": false
+    },
+    "lname": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "UserOfOrganization": {
+      "type": "belongsTo",
+      "model": "Org",
+      "foreignKey": "orgUserId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}
