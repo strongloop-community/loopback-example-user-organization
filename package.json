@@ -1,5 +1,5 @@
 {
-  "name": "user-realm",
+  "name": "loopback-example-user-organization",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
@@ -20,8 +20,8 @@
     "jshint": "^2.5.6"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git@github.com:strongloop-community/loopback-example-user-organization.git"
   },
-  "description": "t1"
+  "description": "loopback-example-user-organization"
 }
