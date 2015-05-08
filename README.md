@@ -49,9 +49,9 @@ module.exports = function(app) {
 ```
 
 ## Run the example
-
-> node .
-
+```
+$ node .
+```
 You should see the output similar as follows:
 ```
 null { name: 'myRealm', id: 1 }
